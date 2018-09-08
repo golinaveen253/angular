@@ -22,9 +22,12 @@
     "@angular/router": "^4.2.3",
     "ag-grid": "^18.1.2",
     "ag-grid-angular": "^18.1.0",
+    "angular-bootstrap-datetimepicker": "^2.2.1",
     "angular2-jwt": "^0.2.3",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "moment": "^2.22.2",
+    "open-iconic": "^1.1.1",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },

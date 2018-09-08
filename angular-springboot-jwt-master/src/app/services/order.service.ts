@@ -5,6 +5,8 @@ import {TOKEN_NAME} from '../services/auth.constant';
 import { HttpClient } from '@angular/common/http';
 import { User } from '../model/user';
 import { Work } from '../model/work';
+import { Order } from '../model/order';
+
 
 @Injectable()
 export class OrderService {
@@ -15,5 +17,9 @@ export class OrderService {
 
     getAllTypeOfWorks() {
         return this.http.get<Work[]>('/order/works');
+    }
+
+    public saveOrder(order){
+        return this.http.post('/order/save', order);
     }
 }
